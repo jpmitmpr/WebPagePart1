@@ -1,4 +1,4 @@
-/* General page styling */
+
 body {
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
@@ -8,7 +8,6 @@ body {
     color: #333;
 }
 
-/* Header */
 #main-header {
     background-color: #00274d;
     color: white;
@@ -21,7 +20,6 @@ body {
     margin: 0;
 }
 
-/* Sections */
 section {
     padding: 20px;
     margin: 20px;
@@ -30,19 +28,16 @@ section {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* Highlight class used multiple times */
 .highlight {
     background-color: #e6f2ff;
     border-left: 5px solid #004080;
 }
 
-/* ID for iconic moment */
 #iconic-moment {
     background-color: #fff0e6;
     text-align: center;
 }
 
-/* Footer */
 #footer-section {
     background-color: #00274d;
     color: white;
@@ -60,7 +55,6 @@ section {
     text-decoration: underline;
 }
 
-/* Flexbox layout */
 .flex-container {
     display: flex;
     flex-direction: column;
