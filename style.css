@@ -8,6 +8,11 @@ body {
     color: #333;
 }
 
+img {
+        max-width: 100%;
+        height: auto;
+    }
+    
 #main-header {
     background-color: #00274d;
     color: white;
@@ -67,4 +72,18 @@ section {
         flex-direction: row;
         justify-content: space-around;
     }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+    
 }
